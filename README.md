@@ -27,16 +27,18 @@ Write a detailed explanation for {audience} on the topic of {input_topic} within
 Users can customize the prompt template according to their preferences, ensuring the generated summary meets their specific requirements.
 
 ## Pre-Requisites
-Before running the application, make sure you have installed the following Python packages:
+1. Before running the application, make sure you have installed the following Python packages:
 - `sentence-transformers`
 - `ctransformers`
 - `langchain`
 - `streamlit`
 
-You can install these packages using pip:
+2. You can install these packages using pip:
 ```
 pip install sentence-transformers ctransformers langchain streamlit
 ```
+
+3. Download the Llama-2-7B-Chat-GGML LLM from HuggingFace [here](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
 
 ## Sample Response from Input Parameters
 - **Input Text:** "investing and trading for beginners"
